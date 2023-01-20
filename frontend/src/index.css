@@ -100,7 +100,7 @@ div.error {
 }
 div.success {
   padding: 10px;
-  background: var(--success);
+  background: var(--primary);
   border: 1px solid #000000;
   color: #ffffff;
   border-radius: 4px;

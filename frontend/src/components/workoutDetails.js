@@ -32,7 +32,7 @@ const WorkoutDetails = ({ workout }) => {
             <p><strong>Load (kg): </strong>{workout.load}</p>
             <p><strong>Reps: </strong>{workout.reps}</p>
             <p><strong>Created at: </strong>{dateString}</p>
-            <span onClick={handleDelete}>Delete</span>
+            <span className="material-symbols-outlined" onClick={handleDelete}>Delete</span>
         </div>
     );
 };
